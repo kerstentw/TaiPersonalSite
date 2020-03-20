@@ -1,0 +1,17 @@
+{
+  "name": "www.taikersten.xxx",
+  "version": "1.0.0",
+  "description": "TaiWebsite",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "Personal",
+    "Tai",
+    "Kersten",
+    "Portfolio"
+  ],
+  "author": "Tai Kersten",
+  "license": "ISC"
+}

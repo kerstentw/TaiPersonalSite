@@ -1,0 +1,115 @@
+:root {
+  --header-height: 70px;
+}
+body {
+  font-family: 'Abel', sans-serif;
+}
+
+#site_title {
+  font-family: 'Ropa Sans', sans-serif;
+  font-size: 30px
+}
+
+.promo_page {
+  height: calc(100% - var(--header-height));
+  width: 100%;
+  padding: 10%;
+  padding-top: 15%;
+  align-items: center;
+}
+
+.select_col {
+  align-items: flex-end;
+  text-align: right;
+}
+
+.promo_head {
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+.promo_body {
+  margin-bottom: 25px;
+}
+
+.promo_card {
+  padding: 25px;
+}
+
+#header{
+  width: 100%;
+  height: var(--header-height);
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #444444;
+  color: white;
+}
+
+#intro_promo {
+  background-image: url(/static/imgs/idx/promo_1.jpeg);
+  background-size: cover;
+}
+
+#dev_promo {
+  background-image: url(/static/imgs/idx/promo_2.jpg);
+  background-size: cover;
+}
+
+#prof_promo {
+  background-image: url(/static/imgs/idx/promo_3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+#design_promo {
+  background-image: url(/static/imgs/idx/promo_4.png);
+  background-size: cover;
+}
+
+#mini_bio {
+  background-color: #EEEEEE;
+  padding: 50px;
+  text-align: center;
+}
+
+#purchasing {
+  padding-top: 75px;
+  padding-bottom: 70px;
+}
+
+#lang_options {
+  max-width: 75px;
+  border: 2px solid #555555;
+  color: #555555;
+  height: 40px;
+  width: 240px;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+.sell_card {
+  padding: 25px;
+  align-items: center;
+  margin-bottom: 15px;
+  height: 550px;
+}
+
+.sell_card:hover {
+  border: 1px solid red;
+  box-shadow: 0px 5px 5px #DDDDDD;
+}
+
+.sale_img {
+  height: 200px;
+  margin-bottom: 35px;
+  margin-top: 10px;
+}
+
+#footer {
+  background-color: #333333;
+  padding: 40px;
+  color: white;
+}
