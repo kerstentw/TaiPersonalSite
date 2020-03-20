@@ -6,6 +6,7 @@
   "scripts": {
     "test": "test"
   },
+  "repository" : "https://github.com/kerstentw/TaiPersonalSite",
   "keywords": [
     "Personal",
     "Tai",
