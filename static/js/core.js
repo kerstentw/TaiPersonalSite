@@ -62,7 +62,7 @@ function languageHandler(_languages){
   }
 }
 
-function hideLoader(){
+function hideLoader () {
   $("#loader").hide();
 }
 
@@ -89,5 +89,4 @@ $(document).ready( async ()=>{
   renderCarousel(".owl-carousel");
 
   hideLoader();
-
 })

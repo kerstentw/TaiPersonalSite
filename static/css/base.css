@@ -63,6 +63,31 @@ section {
   color: white;
 }
 
+#mobile_header {
+  width: 100%;
+  height: var(--header-height);
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #444444;
+  color: white;
+  display: none;
+  text-align: center;
+}
+
+@media only screen and (max-device-width: 480px) {
+  #header {
+    display: none;
+  }
+
+  #mobile_header {
+    display: inline-block;
+  }
+
+
+}
+
 #intro_promo {
   background-image: url(/static/imgs/idx/promo_1.jpeg);
   background-size: cover;
