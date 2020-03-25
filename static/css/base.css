@@ -5,6 +5,22 @@ body {
   font-family: 'Abel', sans-serif;
 }
 
+section {
+  z-index: 1000
+}
+
+#loader {
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  padding-top: 20%;
+  height: 100%;
+  width: 100%;
+  z-index: 1100;
+  background-color: white;
+  position: fixed;
+}
+
 #site_title {
   font-family: 'Ropa Sans', sans-serif;
   font-size: 30px
@@ -65,7 +81,7 @@ body {
 }
 
 #design_promo {
-  background-image: url(/static/imgs/idx/promo_4.png);
+  background-image: url(/static/imgs/idx/promo_4.jpeg);
   background-size: cover;
 }
 

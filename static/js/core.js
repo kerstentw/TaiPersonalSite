@@ -62,6 +62,10 @@ function languageHandler(_languages){
   }
 }
 
+function hideLoader(){
+  $("#loader").hide();
+}
+
 
 function renderCarousel(_target) {
   const options = {
@@ -83,5 +87,7 @@ $(document).ready( async ()=>{
   lang_handler.init();
 
   renderCarousel(".owl-carousel");
+
+  hideLoader();
 
 })
