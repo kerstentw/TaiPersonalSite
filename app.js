@@ -38,6 +38,17 @@ app.get('/bonefides', function (req, res){
   res.send({...site.bonefides})
 })
 
+app.get('/blog', function (req, res){
+  let blog_id = req.query.blog_id;
+  console.log(blog_id)
+  let blog = site.blogs.articles[blog_id]
+
+  if (!blog_id || !blog) {
+    res.send({data: site.blogs.listing});
+  }
+  //res.send({...site.bonefides})
+})
+
 // Run Script
 console.log(`Listening on ${process.env.PORT}`);
 app.listen(process.env.PORT);
