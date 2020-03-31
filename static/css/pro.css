@@ -19,7 +19,9 @@
 }
 
 body {
-  z-index: 1000
+  z-index: 1000;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 #back_wrap {
