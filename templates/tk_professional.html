@@ -2,12 +2,20 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link href="static/css/base.css" rel="stylesheet"/>
+    <link href="static/css/pro.css" rel="stylesheet"/>
+
   </head>
 
-  <body>
+  <body class="animated fadeIn">
 
     <div id="back_wrap">
-      <a href="/"> < Go Back </a>
+      <a href="/" id="home_link">
+        <div id="home_butt_wrap" class="animated fadeInDown">
+          <img id="home_button" src="static/imgs/idx/home.png">
+        </div>
+      </a>
     </div>
 
   <section id="pro_header">
@@ -40,10 +48,7 @@
     <div id="skills_accord">
     </div>
   </section>
-  
-  <a href="/" class="btn btn-outline-danger pro_go_back_bottom">
-    Go Home
-  </a>
+
 </div>
 <section id="footer">
   All code, graphics, images, and illustrations on this site are the creations of Tai Kersten with the exception of libraries imported in via link or script tags.
@@ -75,5 +80,3 @@
 
 <!-- Custom Scripts -->
 <script src="static/js/pro.js"></script>
-<link href="static/css/base.css" rel="stylesheet"/>
-<link href="static/css/pro.css" rel="stylesheet"/>
