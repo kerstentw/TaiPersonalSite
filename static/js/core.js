@@ -82,6 +82,9 @@ function renderCarousel(_target) {
 
 $(document).ready( async ()=>{
   let langs = await $.ajax({url:"/languages"});
+  
+  let blogHandler = new BlogHandler();
+  blogHandler.init();
 
   let lang_handler = new languageHandler(langs);
   lang_handler.init();

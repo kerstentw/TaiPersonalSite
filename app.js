@@ -38,13 +38,16 @@ app.get('/bonefides', function (req, res){
   res.send({...site.bonefides})
 })
 
-app.get('/blog', function (req, res){
+app.get('/api/blog', function (req, res){
   let blog_id = req.query.blog_id;
   console.log(blog_id)
   let blog = site.blogs.articles[blog_id]
 
   if (!blog_id || !blog) {
     res.send({data: site.blogs.listing});
+  }
+  else {
+    res.send({data: blog})
   }
   //res.send({...site.bonefides})
 })

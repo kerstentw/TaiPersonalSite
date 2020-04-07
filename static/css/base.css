@@ -154,3 +154,15 @@ section {
   padding: 40px;
   color: white;
 }
+
+.blog_card {
+  padding: 15px;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  margin: 10px;
+
+}
+
+#blogList {
+  margin-bottom: 50px
+}
