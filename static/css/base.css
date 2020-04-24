@@ -1,5 +1,9 @@
 :root {
   --header-height: 70px;
+  --header-color: #333333;
+  --primary-color: white;
+  --secondary-color: #E85D0C;
+  --third-color: #333333
 }
 body {
   font-family: 'Abel', sans-serif;
@@ -59,8 +63,9 @@ section {
   padding-bottom: 10px;
   padding-left: 50px;
   padding-right: 50px;
-  background-color: #444444;
+  background-color: var(--header-color);
   color: white;
+  border-bottom: 7px var(--secondary-color) solid;
 }
 
 #mobile_header {
@@ -70,7 +75,7 @@ section {
   padding-bottom: 10px;
   padding-left: 50px;
   padding-right: 50px;
-  background-color: #444444;
+  background-color: var(--header-color);
   color: white;
   display: none;
   text-align: center;
@@ -111,8 +116,9 @@ section {
 }
 
 #mini_bio {
-  background-color: #EEEEEE;
-  padding: 50px;
+  background-color: var(--third-color);
+  color: white;
+  padding: 60px;
   text-align: center;
 }
 
